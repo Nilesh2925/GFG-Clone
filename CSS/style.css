@@ -1,0 +1,103 @@
+body{
+	background-color: white;
+}
+
+.form-container {
+	width: 500px;
+	height: 550px;
+	background-color: white;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 25px;
+}
+
+.header {
+	width: auto;
+	height: 50px;
+	background-color: #3CAEA3;
+	text-align: center;
+}
+
+.form {
+	margin-left: 10px;
+}
+
+.details {
+	width : 400px;
+	border-radius: 5px;
+}
+
+#quizTitle {
+	text-align: center;
+	font-size: 36px;
+	padding-top: 40px;
+}
+
+#submitButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#button {
+	display: inline-block;
+	margin-left: 120px;
+}
+
+.login {
+	float: right;
+	margin-right: 15px;
+}
+
+.child1 {
+	background-color: lightblue;
+	width: 180px;
+	height: 100%; 
+	float: left;
+	margin-right: 15px;
+}
+
+.child2 {
+	background-color: white;
+	width: auto;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.images {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#subject {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#subjectList {
+	padding-left: 15px;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.intro {
+	font-size: 20px; 
+	margin-right: 50px;
+}

@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>Stack Quiz</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="child1">
+			<h3 id="subject"><u>Choose Topic</u></h3>
+			<h3 id="subjectList"><a href="index.html">Home</a></h3>
+			<h3 id="subjectList"><a href="stack.html">Stack</a></h3>
+			<h3 id="subjectList"><a href="">Queue</a></h3>
+			<h3 id="subjectList"><a href="">BFS</a></h3>
+			<h3 id="subjectList"><a href="">DFS</a></h3>
+			<h3 id="subjectList"><a href="javascript.html">JavaScript</a></h3>
+		</div>
+		<div class="child2">
+			<a href="signup.html" class="login">Sign up</a>
+			<a href="login.html" class="login">Login</a>
+			<div id="quiz1">
+
+				<p id="quizTitle" style="text-align: center; color: #0060B6"><u>Stack Quiz</u></p>
+
+				<p>Q.1 To evaluate an expression without any embedded function calls:</p>
+				
+				<p>A. One stack is enough</p>
+				<p>B. Two stacks are needed</p>
+				<p>C. As many stacks as the height of the expression tree are needed</p>
+				<p>D. A Turing machine is needed in the general case</p>
+				
+				<input type="text" name="" id="q1" value="" placeholder="Your answer...">
+				
+				<br>
+				<br>
+
+				<p>Q.2 A single array A[1..MAXSIZE] is used to implement two stacks. The two stacks grow from opposite ends of the array. Variables top1 and top2 (topl< top 2) point to the location of the topmost element in each of the stacks. If the space is to be used efficiently, the condition for “stack full” is</p>
+				
+				<p>A. (top1 = MAXSIZE/2) and (top2 = MAXSIZE/2+1)</p>
+				<p>B. top1 + top2 = MAXSIZE</p>
+				<p>C. (top1= MAXSIZE/2) or (top2 = MAXSIZE)</p>
+				<p>D. top1= top2 -1</p>
+				
+				<input type="text" name="" id="q2" value="" placeholder="Your answer...">
+				
+				<br>
+				<br>
+
+				<p>Q.3 Let S be a stack of size n >= 1. Starting with the empty stack, suppose we push the first n natural numbers in sequence, and then perform n pop operations. Assume that Push and Pop operation take X seconds each, and Y seconds elapse between the end of one such stack operation and the start of the next operation. For m >= 1, define the stack-life of m as the time elapsed from the end of Push(m) to the start of the pop operation that removes m from S. The average stack-life of an element of this stack is</p>
+				
+				<p>A. n(X + Y)</p>
+				<p>B. 3Y + 2X</p>
+				<p>C. n(X + Y) - X</p>
+				<p>D. Y + 2X</p>
+				
+				<input type="text" name="" id="q3" value="" placeholder="Your answer...">
+				
+				<br>
+				<br>
+				
+				<p>Q.4 Which of the following is true about linked list implementation of stack?</p>
+				
+				<p>A. In push operation, if new nodes are inserted at the beginning of linked list, then in pop operation, nodes must be removed from end.</p>
+				<p>B. In push operation, if new nodes are inserted at the end, then in pop operation, nodes must be removed from the beginning.</p>
+				<p>C. Both of the above</p>
+				<p>D. None of the above</p>
+				
+				<input type="text" name="" id="q4" value="" placeholder="Your answer...">
+				
+				<br>
+				<br>
+				
+				<p>Q.5 Which one of the following is an application of Stack Data Structure?</p>
+				
+				<p>A. Managing function calls</p>
+				<p>B. The stock span problem</p>
+				<p>C. Arithmetic expression evaluation</p>
+				<p>D. All of the above</p>
+				
+				<input type="text" name="" id="q5" value="" placeholder="Your answer...">
+				
+				<br>
+				<br>
+				
+				<input type="button" id="submitButton" name="" value="Submit" onclick="stackScore()">
+			</div>
+		</div>
+	</div>
+</body>
+<script src="script/script.js"></script>
+</html>

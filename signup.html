@@ -10,7 +10,7 @@
 	
 	<div class="form-container">
 		<div class="header" style="text-decoration-color: white">Sign Up</div>
-		<form action="connect.jsp" method="post">
+		<form action="connect.jsp" method="post" onsubmit="return validate()">
 			<div class="form">
 				<p>Name</p>
 				<input type="text" name="name" class="details" id="name">
@@ -23,7 +23,7 @@
 				<br>
 				<br>
 			</div>
-			<input type="Submit" id="button" onclick="validate()">
+			<input type="Submit" id="button">
 			<input type="Reset">
 		</form>
 	</div>

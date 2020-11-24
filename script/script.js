@@ -57,6 +57,7 @@ function stackScore() {
 }
 
 function validate() {
+	console.log("Yes");
 	var name = document.getElementByID("name").value;
 	if(name.length()==0)
 		window.alert("Name can not be empty");

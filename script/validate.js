@@ -1,6 +1,7 @@
 function validate() {
 	console.log("Yes");
 	var name = document.getElementByID("name").value;
+	console.log(name);
 	if(name.length()==0)
 		window.alert("Name can not be empty");
 	

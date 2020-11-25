@@ -28,11 +28,13 @@ function validate() {
 	else if(mobile.length<10 || mobile.length>10)
 	{
 		window.alert("Mobile should be a 10 digit number");
+		console.log("Invalid Mobile");
 		return false;
 	}
 	else if(email.indexOf('@') < 0)
 	{
 		window.alert("Invalid Email Id");
+		console.log("Invalid Email");
 		return false;
 	}
 }

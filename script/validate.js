@@ -25,5 +25,15 @@ function validate() {
 		window.alert("mobile can not be empty");
 		return false;
 	}
+	else if(mobile.length<10 || mobile.length>10)
+	{
+		window.alert("Mobile should be a 10 digit number");
+		return false;
+	}
+	else if(email.indexOf('@') < 0)
+	{
+		window.alert("Invalid Email Id");
+		return false;
+	}
 }
 
